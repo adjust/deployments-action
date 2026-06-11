@@ -1,11 +1,11 @@
 name: GitHub Deployments
 description: GitHub action for working painlessly with deployment statuses.
-author: bobheadxi
+author: adjust
 branding:
   icon: bookmark
   color: yellow
 runs:
-  using: node20
+  using: node24
   main: dist/index.js
 
 inputs:
