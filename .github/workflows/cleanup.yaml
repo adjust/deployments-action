@@ -18,7 +18,7 @@ jobs:
         cache: 'npm'
 
     # Dependencies
-    - run: npm ci
+    - run: npm install
     - run: npm run build
 
     - name: extract branch name
